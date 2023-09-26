@@ -1,6 +1,8 @@
 <script>
+import AppNav from './components/AppNav.vue';
+import AppMain from './components/AppMain.vue';
 
-// import AppNavbar from './components/AppNavbar.vue';
+import './assets/scss/style.scss';
 
 export default {
   data() {
@@ -8,11 +10,17 @@ export default {
     }
   },
   components: {
+    AppMain,
+    AppNav
   }
 }
 </script>
 
 <template>
+
+<AppNav></AppNav>
+<AppMain></AppMain>
+
 
 </template>
 
