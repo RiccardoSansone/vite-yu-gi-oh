@@ -39,7 +39,7 @@ main{
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
-                width: calc(100% / 12 * 2 );
+                width: calc(100% / 12 * 2 - 0.84rem );
                 background-color: #d48f38;
                 img{
                     width: 100%;
@@ -56,4 +56,15 @@ select{
     border: none;
     border-radius: 10px;
     padding: 0.5rem 0.5rem;
+}
+.name{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+}
+.archetype{
+    text-align: center;
+    font-weight: lighter;
 }

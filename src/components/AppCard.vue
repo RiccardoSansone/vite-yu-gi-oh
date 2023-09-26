@@ -18,10 +18,10 @@ export default {
 
   <div class="card">
     <img :src="info.card_images[0].image_url" alt="">
-    <div>
+    <div class="name">
       {{ info.name }}
     </div>
-    <div>
+    <div class="archetype">
       {{ info.archetype }}
     </div>
   </div>
