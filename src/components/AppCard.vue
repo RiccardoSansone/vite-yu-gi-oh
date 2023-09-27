@@ -9,7 +9,7 @@ export default {
     components: {
     },
     props: {
-        info: String
+        info: Object
     }
 }
 </script>
